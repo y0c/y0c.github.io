@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://y0c.github.io/2018/08/10/js-decorator/</loc>
+        <lastmod>2018-08-10T13:44:09.703Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y0c.github.io/2018/07/29/serverless-koa/</loc>
         <lastmod>2018-07-28T16:05:20.235Z</lastmod>
         <changefreq>weekly</changefreq>
