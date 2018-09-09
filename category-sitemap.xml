@@ -8,14 +8,28 @@
 
     <url>
         <loc>https://y0c.github.io/categories/React/</loc>
-        <lastmod>2018-01-05T23:59:05.878Z</lastmod>
+        <lastmod>2018-09-09T13:47:47.579Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y0c.github.io/categories/serverless/</loc>
-        <lastmod>2018-07-28T16:05:20.235Z</lastmod>
+        <lastmod>2018-09-09T13:48:13.167Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/categories/javascript/</loc>
+        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/categories/Javascript/</loc>
+        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

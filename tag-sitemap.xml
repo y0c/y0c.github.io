@@ -3,35 +3,77 @@
 
     <url>
         <loc>https://y0c.github.io/tags/React/</loc>
-        <lastmod>2018-01-05T23:59:05.878Z</lastmod>
+        <lastmod>2018-09-09T13:47:47.579Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y0c.github.io/tags/Event-Handling/</loc>
-        <lastmod>2018-01-05T23:59:05.878Z</lastmod>
+        <lastmod>2018-09-09T13:47:47.579Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y0c.github.io/tags/serverless/</loc>
-        <lastmod>2018-07-28T16:05:20.235Z</lastmod>
+        <lastmod>2018-09-09T13:48:13.167Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y0c.github.io/tags/serverless-http/</loc>
-        <lastmod>2018-07-28T16:05:20.235Z</lastmod>
+        <lastmod>2018-09-09T13:48:13.167Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y0c.github.io/tags/koa/</loc>
-        <lastmod>2018-07-28T16:05:20.235Z</lastmod>
+        <lastmod>2018-09-09T13:48:13.167Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/design-pattern/</loc>
+        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/javascript/</loc>
+        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/ES6/</loc>
+        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/generator/</loc>
+        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/iterator/</loc>
+        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/Javascript/</loc>
+        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
