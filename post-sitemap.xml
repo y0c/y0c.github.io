@@ -7,8 +7,16 @@
     </url>
 
     <url>
+        <loc>https://y0c.github.io/2018/09/09/js-generator/</loc>
+        <lastmod>2018-09-09T13:34:18.192Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y0c.github.io/2018/08/10/js-decorator/</loc>
-        <lastmod>2018-08-10T13:44:09.703Z</lastmod>
+        <lastmod>2018-09-09T01:23:51.272Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
