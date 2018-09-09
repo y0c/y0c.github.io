@@ -14,22 +14,15 @@
     </url>
 
     <url>
-        <loc>https://y0c.github.io/categories/serverless/</loc>
-        <lastmod>2018-09-09T13:48:13.167Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y0c.github.io/categories/javascript/</loc>
-        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y0c.github.io/categories/Javascript/</loc>
-        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
+        <lastmod>2018-09-09T21:35:06.058Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/categories/serverless/</loc>
+        <lastmod>2018-09-09T21:35:17.884Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

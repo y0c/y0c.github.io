@@ -16,41 +16,6 @@
     </url>
 
     <url>
-        <loc>https://y0c.github.io/tags/serverless/</loc>
-        <lastmod>2018-09-09T13:48:13.167Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y0c.github.io/tags/serverless-http/</loc>
-        <lastmod>2018-09-09T13:48:13.167Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y0c.github.io/tags/koa/</loc>
-        <lastmod>2018-09-09T13:48:13.167Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y0c.github.io/tags/design-pattern/</loc>
-        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y0c.github.io/tags/javascript/</loc>
-        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y0c.github.io/tags/ES6/</loc>
         <lastmod>2018-09-09T13:48:13.240Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -74,6 +39,48 @@
     <url>
         <loc>https://y0c.github.io/tags/Javascript/</loc>
         <lastmod>2018-09-09T13:48:13.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/Closure/</loc>
+        <lastmod>2018-09-09T21:33:25.200Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/javascript/</loc>
+        <lastmod>2018-09-09T21:35:06.058Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/design-pattern/</loc>
+        <lastmod>2018-09-09T21:35:06.058Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/serverless/</loc>
+        <lastmod>2018-09-09T21:35:17.884Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/serverless-http/</loc>
+        <lastmod>2018-09-09T21:35:17.884Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/koa/</loc>
+        <lastmod>2018-09-09T21:35:17.884Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

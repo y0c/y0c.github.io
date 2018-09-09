@@ -7,8 +7,24 @@
     </url>
 
     <url>
+        <loc>https://y0c.github.io/2018/07/29/serverless-koa/</loc>
+        <lastmod>2018-09-09T21:35:17.884Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y0c.github.io/2018/08/10/js-decorator/</loc>
-        <lastmod>2018-09-09T13:48:13.240Z</lastmod>
+        <lastmod>2018-09-09T21:35:06.058Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/2018/09/10/js-closure/</loc>
+        <lastmod>2018-09-09T21:33:25.200Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,14 +33,6 @@
     <url>
         <loc>https://y0c.github.io/2018/09/09/js-generator/</loc>
         <lastmod>2018-09-09T13:48:13.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y0c.github.io/2018/07/29/serverless-koa/</loc>
-        <lastmod>2018-09-09T13:48:13.167Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
