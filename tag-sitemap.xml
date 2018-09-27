@@ -51,14 +51,14 @@
     </url>
 
     <url>
-        <loc>https://y0c.github.io/tags/javascript/</loc>
+        <loc>https://y0c.github.io/tags/design-pattern/</loc>
         <lastmod>2018-09-09T21:35:06.058Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y0c.github.io/tags/design-pattern/</loc>
+        <loc>https://y0c.github.io/tags/javascript/</loc>
         <lastmod>2018-09-09T21:35:06.058Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -95,6 +95,13 @@
     <url>
         <loc>https://y0c.github.io/tags/react/</loc>
         <lastmod>2018-09-10T12:41:50.676Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/tmux/</loc>
+        <lastmod>2018-09-27T03:23:40.570Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
