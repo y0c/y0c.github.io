@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://y0c.github.io/2018/10/20/Docker-Private-Registry/</loc>
+        <lastmod>2018-10-20T13:40:25.190Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y0c.github.io/2018/09/28/centos7-mail-server/</loc>
         <lastmod>2018-09-28T14:39:00.278Z</lastmod>
         <changefreq>weekly</changefreq>

@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://y0c.github.io/"/>
-  <updated>2018-09-28T14:39:00.278Z</updated>
+  <updated>2018-10-20T13:40:25.190Z</updated>
   <id>https://y0c.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker Private Registry 구축하기</title>
+    <link href="https://y0c.github.io/2018/10/20/Docker-Private-Registry/"/>
+    <id>https://y0c.github.io/2018/10/20/Docker-Private-Registry/</id>
+    <published>2018-10-20T13:33:51.000Z</published>
+    <updated>2018-10-20T13:40:25.190Z</updated>
+    
+    <content type="html"><![CDATA[<img src="/images/docker.png"/><p>기본적으로 Docker는 Docker Hub라는 공식 Registry를 통해서 이미지를 Push, Pull 할 수 있다.<br>하지만 공개적으로 노출시킬 이미지가 아니라면 Private Registry를 별도로 구축해서 이용해야한다.<br>이번 포스팅에선 Docker Private Registry를 구축하는 방법에 대해 작성해보려 한다.<br>Docker Registry 를 구축하기 위해선 SSL 인증서가 필요하다.<br>만약 인증서를 구매하지 않고 사용하고 싶다면 <strong>insecure-registry</strong> 를 등록하거나 아니면 <strong>Let’s Encrypt</strong> 와 같은 무료 TLS솔루션을 찾아보기 바란다.<br>먼저 Docker Registry에 있는 docker-compose 파일을 이용하도록 한다.</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">registry:</span></span><br><span class="line"><span class="attr">  restart:</span> <span class="string">always</span></span><br><span class="line"><span class="attr">  image:</span> <span class="attr">registry:2</span></span><br><span class="line"><span class="attr">  ports:</span></span><br><span class="line"><span class="bullet">    -</span> <span class="number">5000</span><span class="string">:5000</span></span><br><span class="line"><span class="attr">  environment:</span></span><br><span class="line"><span class="attr">    REGISTRY_HTTP_TLS_CERTIFICATE:</span> <span class="string">/certs/domain.crt</span></span><br><span class="line"><span class="attr">    REGISTRY_HTTP_TLS_KEY:</span> <span class="string">/certs/domain.key</span></span><br><span class="line"><span class="attr">    REGISTRY_AUTH:</span> <span class="string">htpasswd</span></span><br><span class="line"><span class="attr">    REGISTRY_AUTH_HTPASSWD_PATH:</span> <span class="string">/auth/htpasswd</span></span><br><span class="line"><span class="attr">    REGISTRY_AUTH_HTPASSWD_REALM:</span> <span class="string">Registry</span> <span class="string">Realm</span></span><br><span class="line"><span class="attr">  volumes:</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">/path/data:/var/lib/registry</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">/path/certs:/certs</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">/path/auth:/auth</span></span><br></pre></td></tr></table></figure><ul><li>cert - SSL인증서가 들어갈 디렉토리</li><li>auth - htpasswd 계정 정보를 넣어줄 디렉토리</li></ul><p>인증서가 준비되었다면 auth/htpasswd 파일을 만들어보자.<br>htpasswd관련 패키지가 설치되어있지 않다면 설치하고 아래 명령을 실행하도록 한다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo htpasswd -B &lt;파일경로&gt; &lt;만들계정&gt;</span><br></pre></td></tr></table></figure><p>명령어를 실행하면 패스워드를 물어보고 계정이 만들어진다.</p><p>이제 잘되는지 확인하는 일만 남았다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker-compose up -d</span><br></pre></td></tr></table></figure><p>docker-compose 를 통해서 container를 데몬으로 띄운다.<br>접속은 브라우저나 curl 원하는 형태로 확인이 가능하다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -u &lt;계정명&gt;:&lt;패스워드&gt; https://....</span><br></pre></td></tr></table></figure><p>정상적으로 Push, Pull이 되는지 확인해보자</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker pull hello-world</span><br><span class="line">docker tag hello-world &lt;Registry URL&gt;/hello-wrold</span><br><span class="line">docker login &lt;Registry URL&gt;</span><br><span class="line">docker push &lt;Registry URL&gt; hello-world</span><br></pre></td></tr></table></figure><p>Push가 되었다면 <code>&lt;Registry URL&gt;/v2/_catalog</code> 로 접속해서 Repositories 목록에서 확인할 수 있다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;img src=&quot;/images/docker.png&quot;/&gt;&lt;p&gt;기본적으로 Docker는 Docker Hub라는 공식 Registry를 통해서 이미지를 Push, Pull 할 수 있다.&lt;br&gt;하지만 공개적으로 노출시킬 이미지가 아니라면 Private Re
+      
+    
+    </summary>
+    
+      <category term="Docker" scheme="https://y0c.github.io/categories/Docker/"/>
+    
+    
+      <category term="docker" scheme="https://y0c.github.io/tags/docker/"/>
+    
+  </entry>
   
   <entry>
     <title>CentOS 7 Mail Server 구축하기 Postfix + Dovecot</title>
