@@ -51,14 +51,14 @@
     </url>
 
     <url>
-        <loc>https://y0c.github.io/tags/design-pattern/</loc>
+        <loc>https://y0c.github.io/tags/javascript/</loc>
         <lastmod>2018-09-09T21:35:06.058Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y0c.github.io/tags/javascript/</loc>
+        <loc>https://y0c.github.io/tags/design-pattern/</loc>
         <lastmod>2018-09-09T21:35:06.058Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -123,6 +123,20 @@
     <url>
         <loc>https://y0c.github.io/tags/Redis/</loc>
         <lastmod>2018-10-21T15:28:24.337Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/Docker/</loc>
+        <lastmod>2018-10-22T04:44:33.718Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/Jenkins/</loc>
+        <lastmod>2018-10-22T04:44:33.718Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
