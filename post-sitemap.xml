@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://y0c.github.io/2019/04/11/testing-refactoring/</loc>
+        <lastmod>2019-04-18T16:31:22.296Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y0c.github.io/2018/10/21/redis-cluster/</loc>
         <lastmod>2018-10-23T06:50:10.119Z</lastmod>
         <changefreq>weekly</changefreq>
