@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://y0c.github.io/2019/06/14/monorepo-tutorial/</loc>
+        <lastmod>2019-06-14T12:54:29.859Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y0c.github.io/2019/04/11/testing-refactoring/</loc>
         <lastmod>2019-04-18T16:31:22.296Z</lastmod>
         <changefreq>weekly</changefreq>

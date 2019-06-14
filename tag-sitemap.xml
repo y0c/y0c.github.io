@@ -135,15 +135,29 @@
     </url>
 
     <url>
-        <loc>https://y0c.github.io/tags/javascript/</loc>
+        <loc>https://y0c.github.io/tags/tdd/</loc>
         <lastmod>2019-04-18T16:31:22.296Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y0c.github.io/tags/tdd/</loc>
-        <lastmod>2019-04-18T16:31:22.296Z</lastmod>
+        <loc>https://y0c.github.io/tags/javascript/</loc>
+        <lastmod>2019-06-14T12:54:29.859Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/yarn/</loc>
+        <lastmod>2019-06-14T12:54:29.859Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/monorepo/</loc>
+        <lastmod>2019-06-14T12:54:29.859Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
