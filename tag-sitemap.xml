@@ -2,13 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://y0c.github.io/tags/React/</loc>
-        <lastmod>2018-09-09T13:47:47.579Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y0c.github.io/tags/Event-Handling/</loc>
         <lastmod>2018-09-09T13:47:47.579Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -158,6 +151,13 @@
     <url>
         <loc>https://y0c.github.io/tags/monorepo/</loc>
         <lastmod>2019-06-17T16:03:59.500Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/React/</loc>
+        <lastmod>2019-06-30T10:33:11.241Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

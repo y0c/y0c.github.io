@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://y0c.github.io/2019/06/30/react-infinite-scroll/</loc>
+        <lastmod>2019-06-30T10:33:11.241Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y0c.github.io/2019/06/14/monorepo-tutorial/</loc>
         <lastmod>2019-06-17T16:03:59.500Z</lastmod>
         <changefreq>weekly</changefreq>
