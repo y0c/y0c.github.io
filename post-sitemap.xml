@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://y0c.github.io/2019/08/11/beginning-go/</loc>
+        <lastmod>2019-08-11T07:27:03.866Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y0c.github.io/2019/07/14/vim-config-for-js-developer/</loc>
         <lastmod>2019-07-14T13:41:45.085Z</lastmod>
         <changefreq>weekly</changefreq>
