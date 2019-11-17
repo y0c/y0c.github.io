@@ -72,14 +72,14 @@
     </url>
 
     <url>
-        <loc>https://y0c.github.io/tags/semantic-ui-react/</loc>
+        <loc>https://y0c.github.io/tags/react/</loc>
         <lastmod>2018-09-10T12:41:50.676Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y0c.github.io/tags/react/</loc>
+        <loc>https://y0c.github.io/tags/semantic-ui-react/</loc>
         <lastmod>2018-09-10T12:41:50.676Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -207,6 +207,20 @@
     <url>
         <loc>https://y0c.github.io/tags/Serverless/</loc>
         <lastmod>2019-08-25T15:24:06.422Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/graphql/</loc>
+        <lastmod>2019-11-17T14:20:46.711Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y0c.github.io/tags/apollo/</loc>
+        <lastmod>2019-11-17T14:20:46.711Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
