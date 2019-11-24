@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://y0c.github.io/2019/11/24/graphql-query-optimize-with-dataloader/</loc>
+        <lastmod>2019-11-24T14:39:33.303Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y0c.github.io/2019/11/17/graphql-data-mocking/</loc>
         <lastmod>2019-11-17T14:20:46.711Z</lastmod>
         <changefreq>weekly</changefreq>
